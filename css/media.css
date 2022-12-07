@@ -1,0 +1,19 @@
+body{
+  colour:darkmagenta;
+}
+.title{
+  font-size: 10rem;
+}
+.sub{
+  font-size: 6rem;
+}
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: darkmagenta;
+  }
+}
+  @media (orientation:landscape) and (max-width: 500px) {
+    .title{
+      color: cornsilk;
+    }
+  }
